@@ -1,0 +1,88 @@
+---
+title: "Générateur exercice Statistique"
+author: "BETTEGA Francois"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:  
+html_document:
+  html_document:
+    pdf_document: 
+      keep_tex: False
+      toc: False
+      toc_depth: 3
+urlcolor: blue
+knit: (function(inputFile, encoding) {
+  rmarkdown::render(inputFile, encoding = encoding, output_dir = "knit") })
+  
+---
+
+
+```{r setup, include=FALSE}
+# html_document:
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<style type="text/css">
+
+body{ /* Normal  */
+      font-size: 12px;
+  }
+td {  /* Table  */
+  font-size: 8px;
+}
+h1.title {
+  font-size: 38px;
+  color: DarkRed;
+}
+h1 { /* Header 1 */
+  font-size: 28px;
+  color: DarkBlue;
+}
+h2 { /* Header 2 */
+    font-size: 20px;
+  color: DarkBlue;
+}
+h3 { /* Header 3 */
+  font-size: 16px;
+  font-family: "Times New Roman", Times, serif;
+  color: DarkBlue;
+}
+code.r{ /* Code block */
+    font-size: 12px;
+}
+pre { /* Code block - determines code spacing between lines */
+    font-size: 14px;
+}
+</style>
+
+
+
+
+
+
+# Modalité de récupération des jeux de données 
+
+
+Pour obtenir un jeux de données vous vous connecterez à [l'adresse (onglet récuperation du jeux de données)](https://generationcc.bette.ga/?recup)  
+
+Dans l'onglet *Récupération des jeux de données*.   
+Vous remplirez les champs demandés et cliquerez sur le bouton *je demande un jeu de données* .  
+Vous recevrez dans les minutes qui suivront un mail avec les jeux de données spécifiques à votre groupe, ainsi que le code qui identifie votre groupe. Le code est nécessaire pour la soumission : il faut donc le conserver. 
+
+
+# Modalités de retour du compte rendu 
+
+Le contrôle continu est à rendre à [l'adresse (onglet "Rendu du controle continu")](https://generationcc.bette.ga/?rendu "site onglet retour")   
+(Onglet : *Rendu du contrôle continu*)  
+**Pensez bien à entrer le code fourni avec les données**  
+
+Il faut uniquement rendre le fichier R complété
+Vous recevrez une confirmation par mail, quelques minutes après la soumission.  
+
+
+Le contrôle continu doit être rendu en seul. 
+
+
+   
+
+
+
